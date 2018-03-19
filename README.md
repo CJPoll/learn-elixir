@@ -116,7 +116,10 @@
 	- [Task](https://hexdocs.pm/elixir/Task.html#content)
 	- [Agent](https://hexdocs.pm/elixir/Agent.html#content)
 	- [Generic State Machines](http://erlang.org/doc/design_principles/statem.html)
+- Ecosystem
 	- [Ecto](https://hexdocs.pm/ecto/Ecto.html)
+		- Data Validation Library
+		- Also useful as an ORM
 	- [Plug](https://github.com/elixir-plug/plug)
 	- [Phoenix](https://hexdocs.pm/phoenix/overview.html)
 
@@ -135,9 +138,9 @@
 
 ## Advanced
 
-- Macros & Metaprogramming
 - Clustering
 - [Mnesia](http://erlang.org/doc/man/mnesia.html)
 	- A database built on ETS and DETS with transactions and other good features.
 	- Definitely not an RDBMS. Learn the tradeoffs it makes before using (as with
 		any database)
+- Macros & Metaprogramming
