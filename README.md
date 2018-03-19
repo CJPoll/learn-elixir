@@ -110,7 +110,7 @@
 			- :permanent
 			- :temporary
 			- :transient
-		- [Child Specs](https://medium.com/@CJPoll/opinion-genserver-best-practices-for-elixir-f53d3b060dbf)
+		- [Child Specs](https://hexdocs.pm/elixir/Supervisor.html#module-child-specification)
 	- [Application](https://hexdocs.pm/elixir/Application.html#content)
 	- [Task](https://hexdocs.pm/elixir/Task.html#content)
 	- [Agent](https://hexdocs.pm/elixir/Agent.html#content)
