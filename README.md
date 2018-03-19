@@ -1,5 +1,7 @@
 # Elixir Skills by Level
 
+[A Bunch of Books on Elixir](https://github.com/h4cc/awesome-elixir#books)
+
 ## Fundamentals
 
 1. Data Types
@@ -68,6 +70,8 @@
 
 ## Beginner (Learning The Ecosystem)
 
+- [ExDoc](https://github.com/elixir-lang/ex_doc)
+	- Generate documentation for your own projects
 - [Using Observer](https://www.packtpub.com/mapt/book/application_development/9781784397517/1/ch01lvl1sec15/inspecting-your-system-with-observer)
 - STDLIB & Data Structures
 	- Essential
@@ -87,6 +91,10 @@
 - [Behaviours](https://elixir-lang.org/getting-started/typespecs-and-behaviours.html#behaviours)
 - [Timers](http://erlang.org/doc/man/timer.html)
 	- Note the helper functions for converting to milliseconds
+- [gen_tcp](http://erlang.org/doc/man/gen_tcp.html)
+	- Facilities for interacting with raw TCP sockets (both server and client side)
+- [gen_udp](http://erlang.org/doc/man/gen_udp.html)
+	- Like gen_tcp, but for UDP
 - [OTP Design Principles](http://erlang.org/doc/design_principles/des_princ.html)
 	- [GenServer](https://hexdocs.pm/elixir/GenServer.html)
 		- Client-side code vs "GenServer"-side code
@@ -116,12 +124,18 @@
 	- [Task](https://hexdocs.pm/elixir/Task.html#content)
 	- [Agent](https://hexdocs.pm/elixir/Agent.html#content)
 	- [Generic State Machines](http://erlang.org/doc/design_principles/statem.html)
+- [Logger](https://hexdocs.pm/logger/Logger.html)
 - Ecosystem
 	- [Ecto](https://hexdocs.pm/ecto/Ecto.html)
 		- Data Validation Library
 		- Also useful as an ORM
 	- [Plug](https://github.com/elixir-plug/plug)
 	- [Phoenix](https://hexdocs.pm/phoenix/overview.html)
+	- [HTTPoison](https://github.com/edgurgel/httpoison)
+	- JSON Libs
+		- [Poison](https://github.com/devinus/poison) - Pure Elixir
+		- [Jason](https://github.com/michalmuskala/jason) - Pure Elixir
+		- [Jiffy](https://github.com/davisp/jiffy) - Drops to C (fastest in the west)
 
 ## Intermediate (More Advanced Use of STDLIBs and Ecosystem)
 
@@ -135,9 +149,13 @@
 	- [Process Groups](http://erlang.org/doc/man/pg2.html)
 	- [Poolboy](https://github.com/devinus/poolboy)
 - [RPC](http://erlang.org/doc/man/rpc.html)
+- [GenStage](https://hexdocs.pm/gen_stage/GenStage.html)
+- [Flow](https://hexdocs.pm/flow/Flow.html)
 
 ## Advanced
 
+- [Erlang in Anger](http://www.erlang-in-anger.com/)
+	- Great ebook on dealing with misbehaving Erlang/Elixir stuff
 - Clustering
 - [Mnesia](http://erlang.org/doc/man/mnesia.html)
 	- A database built on ETS and DETS with transactions and other good features.
