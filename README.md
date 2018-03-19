@@ -66,7 +66,7 @@
 	- `require`
 	- `use`
 
-## Beginner (Using the STDLIB)
+## Beginner (Learning The Ecosystem)
 - [Using Observer](https://www.packtpub.com/mapt/book/application_development/9781784397517/1/ch01lvl1sec15/inspecting-your-system-with-observer)
 - STDLIB & Data Structures
 	- Essential
@@ -86,15 +86,14 @@
 - [Behaviours](https://elixir-lang.org/getting-started/typespecs-and-behaviours.html#behaviours)
 - [Timers](http://erlang.org/doc/man/timer.html)
 	- Note the helper functions for converting to milliseconds
-
 - [OTP Design Principles](http://erlang.org/doc/design_principles/des_princ.html)
 	- [GenServer](https://hexdocs.pm/elixir/GenServer.html)
 		- Client-side code vs "GenServer"-side code
 		- Memorize all the Callbacks
 		- [Structuring Your Module](https://medium.com/@CJPoll/opinion-genserver-best-practices-for-elixir-f53d3b060dbf)
-		- Registering the GenServer:
+		- [Registering the GenServer](https://hexdocs.pm/elixir/GenServer.html#module-name-registration)
 			- Locally
-			- In an Elixir `Registry`
+			- In an Elixir [Registry](https://hexdocs.pm/elixir/Registry.html#content)
 			- Globally across a cluster
 	- [Supervisor](https://hexdocs.pm/elixir/Supervisor.html#content)
 		- [Supervision Strategies](https://hexdocs.pm/elixir/Supervisor.html#module-strategies)
