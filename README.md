@@ -67,6 +67,7 @@
 	- `use`
 
 ## Beginner (Learning The Ecosystem)
+
 - [Using Observer](https://www.packtpub.com/mapt/book/application_development/9781784397517/1/ch01lvl1sec15/inspecting-your-system-with-observer)
 - STDLIB & Data Structures
 	- Essential
@@ -119,10 +120,12 @@
 	- [Plug](https://github.com/elixir-plug/plug)
 	- [Phoenix](https://hexdocs.pm/phoenix/overview.html)
 
-## Intermediate
+## Intermediate (More Advanced Use of STDLIBs and Ecosystem)
 
-- [ETS](http://erlang.org/doc/man/ets.html)
-- [DETS](http://erlang.org/doc/man/dets.html)
+- [Dialyzer](http://erlang.org/doc/apps/dialyzer/dialyzer_chapter.html)
+- [Dialyxir](https://github.com/jeremyjh/dialyxir) - A wrapper for including Dialyzer in mix projects
+- [ETS](http://erlang.org/doc/man/ets.html) - In-memory data store for arbitrary erlang/elixir data structures
+- [DETS](http://erlang.org/doc/man/dets.html) - Disk-based data store for arbitrary erlang/elixir data structures
 - [Efficiency Guide User's Guide](http://erlang.org/doc/efficiency_guide/users_guide.html)
 - [Built-In OS Monitoring Utilities](http://erlang.org/doc/search/)
 - Process Pooling
@@ -133,3 +136,8 @@
 ## Advanced
 
 - Macros & Metaprogramming
+- Clustering
+- [Mnesia](http://erlang.org/doc/man/mnesia.html)
+	- A database built on ETS and DETS with transactions and other good features.
+	- Definitely not an RDBMS. Learn the tradeoffs it makes before using (as with
+		any database)
