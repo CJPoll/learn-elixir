@@ -42,10 +42,10 @@
 	- Function Head
 		- In Named Functions
 		- In Anonymous Functions
-	- Case Statement
-	- Cond
-	- With
-	- Guards
+	- [Case](https://elixir-lang.org/getting-started/case-cond-and-if.html#case)
+	- [Cond](https://elixir-lang.org/getting-started/case-cond-and-if.html#cond)
+	- [With](https://elixir-lang.org/getting-started/mix-otp/docs-tests-and-with.html#with)
+	- [Guards](https://hexdocs.pm/elixir/master/guards.html)
 	- Destructuring Data
 		- Tuples
 		- Lists
