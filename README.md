@@ -6,26 +6,28 @@
 
 1. Data Types
 	- Scalars
-		- Integers
-		- Floats
+		- [Integers](https://elixir-lang.org/getting-started/basic-types.html#basic-arithmetic)
+		- [Floats](https://elixir-lang.org/getting-started/basic-types.html#basic-arithmetic)
 		- Strings (charlist vs binaries)
-		- Atoms
-		- Modules
-		- Pids
+		- [Atoms](https://elixir-lang.org/getting-started/basic-types.html#atoms)
+		- [Booleans](https://elixir-lang.org/getting-started/basic-types.html#booleans)
+		- [Modules & Functions](https://elixir-lang.org/getting-started/modules-and-functions.html)
+		- [Pids](https://elixir-lang.org/getting-started/processes.html)
 			- Local
 			- Remote
 		- Functions
-			- Anonymous Functions
-			- Referencing Named Functions
+			- [Anonymous Functions](https://elixirschool.com/en/lessons/basics/functions/#anonymous-functions)
+			- [Referencing Named Functions](https://elixir-lang.org/getting-started/modules-and-functions.html#function-capturing)
 	- Composite
 		- Types
-			- Tuples
-			- Lists
-			- Maps
-			- Structs
+			- [Tuples](https://elixir-lang.org/getting-started/basic-types.html#tuples)
+			- [Lists](https://elixir-lang.org/getting-started/basic-types.html#linked-lists)
+			- [Keyword Lists](https://elixir-lang.org/getting-started/keywords-and-maps.html#keyword-lists)
+			- [Maps](https://elixir-lang.org/getting-started/keywords-and-maps.html#maps)
+			- [Structs](https://elixir-lang.org/getting-started/structs.html)
 			- [Erlang Proplists](http://erlang.org/doc/man/proplists.html)
 			- [Elixir Keyword Lists](https://hexdocs.pm/elixir/Keyword.html)
-		- Understand differences
+		- Understand differences between these types
 			- Ordered vs Unordered
 			- Cost of Updates
 				- Prepend (for ordered types)
@@ -36,6 +38,7 @@
 				- Random Access
 				- Sequential Access
 2. Pattern Matching
+	- [Match Operator](https://elixir-lang.org/getting-started/pattern-matching.html#the-match-operator) (`=` - Not Assignment!)
 	- Function Head
 		- In Named Functions
 		- In Anonymous Functions
@@ -49,13 +52,12 @@
 		- Maps
 		- Structs
 		- Especially Nested Structures
-	- Pattern matching Operator (`=`) - Not Assignment!
 3. Processes
 	- [Create From Anonymous Function](https://hexdocs.pm/elixir/Kernel.html#spawn/1)
 	- [Create from Named Function](https://hexdocs.pm/elixir/Kernel.html#spawn/3)
 	- [Send Message to Process](https://hexdocs.pm/elixir/Kernel.html#send/2)
-	- Receive Message From Another Process
-	- Receive Message From Another Process With Timeout
+	- [Receive Message From Another Process](https://elixir-lang.org/getting-started/processes.html#send-and-receive)
+	- [Receive Message From Another Process With Timeout](https://elixir-lang.org/getting-started/processes.html#send-and-receive)
 	- [Exits](https://hexdocs.pm/elixir/Process.html#exit/2)
 	- [Links](https://hexdocs.pm/elixir/Process.html#link/1)
 	- Monitors
