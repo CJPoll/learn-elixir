@@ -72,8 +72,7 @@
 
 ## Beginner (Learning The Ecosystem)
 
-- [ExDoc](https://github.com/elixir-lang/ex_doc)
-	- Generate documentation for your own projects
+- [Type & Function Specs](https://elixir-lang.org/getting-started/typespecs-and-behaviours.html#types-and-specs)
 - [Using Observer](https://www.packtpub.com/mapt/book/application_development/9781784397517/1/ch01lvl1sec15/inspecting-your-system-with-observer)
 - STDLIB & Data Structures
 	- Essential
@@ -89,10 +88,11 @@
 		- [Erlang Balanced Trees](http://erlang.org/doc/man/gb_trees.html)
 		- [Erlang Directed Graphs](http://erlang.org/doc/man/digraph.html)
 		- [Erlang Records](https://hexdocs.pm/elixir/Record.html)
-- [Type & Function Specs](https://elixir-lang.org/getting-started/typespecs-and-behaviours.html#types-and-specs)
 - [Behaviours](https://elixir-lang.org/getting-started/typespecs-and-behaviours.html#behaviours)
 - [Timers](http://erlang.org/doc/man/timer.html)
 	- Note the helper functions for converting to milliseconds
+- [ExDoc](https://github.com/elixir-lang/ex_doc)
+	- Generate documentation for your own projects
 - [gen_tcp](http://erlang.org/doc/man/gen_tcp.html)
 	- Facilities for interacting with raw TCP sockets (both server and client side)
 - [gen_udp](http://erlang.org/doc/man/gen_udp.html)
@@ -161,6 +161,5 @@
 - Clustering
 - [Mnesia](http://erlang.org/doc/man/mnesia.html)
 	- A database built on ETS and DETS with transactions and other good features.
-	- Definitely not an RDBMS. Learn the tradeoffs it makes before using (as with
-		any database)
+	- Definitely not an RDBMS. Learn the tradeoffs it makes before using (as with any database)
 - Macros & Metaprogramming
